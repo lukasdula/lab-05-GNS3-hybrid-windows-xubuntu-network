@@ -230,5 +230,5 @@ This lab demonstrated the configuration of a Linux-based DHCP server and its int
 
 ---
 
-**Next part:**
+**Next part:** [HTTP Configuration on Xubuntu Server](02-http-configuration-on-xubuntu-server.md)
 
