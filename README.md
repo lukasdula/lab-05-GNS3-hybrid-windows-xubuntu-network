@@ -27,11 +27,11 @@ The objectives are
 
 ## **Lab Structure**
 
-1. DHCP Configuration on Xubuntu Server
+1. [DHCP Configuration on Xubuntu Server](01-dhcp-configuration-on-xubuntu-server.md)
     
-2. HTTP Configuration on Xubuntu Server
+2. [HTTP Configuration on Xubuntu Server](02-http-configuration-on-xubuntu-server.md)
     
-3. SSH Remote Access between Systems
+3. [SSH Remote Access between Systems](03-ssh-remote-access-between-systems.md)
     
 
 
