@@ -5,7 +5,7 @@
 ## **Introduction and Objectives**
 
 This lab demonstrates the integration of essential network services across a hybrid Windows and Xubuntu environment. The project combines DHCP, HTTP (Apache), and SSH to provide automated address management, web communication, and secure remote access.  
-The goal is to configure these services on the Xubuntu server, verify communication with Windows clients, and confirm full connectivity across both operating systems.
+The goal is to configure these services on the Xubuntu server, verify communication with Windows and Xubuntu client, and confirm full connectivity across both operating systems.
 
 
 
