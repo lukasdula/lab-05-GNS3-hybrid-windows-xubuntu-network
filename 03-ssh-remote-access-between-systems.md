@@ -52,7 +52,7 @@ The Xubuntu server is now ready to accept SSH connection.
 
 
 
-### 3.5 SSH Connection Between Windows and Xubuntu Server
+## 3.5 SSH Connection Between Windows and Xubuntu Server
 
 This section verifies full SSH connection between two systems in the network -> the Xubuntu server and the Windows client. The test confirms that secure remote sessions are established successfully, allowing authenticated users to run commands between both systems.
 
