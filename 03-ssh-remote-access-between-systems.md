@@ -90,3 +90,7 @@ All SSH sessions authenticate successfully, confirming full connectivity SSH com
 ## **3.6 Conclusion**
 
 The SSH configuration enables secure remote communication between Windows and Xubuntu systems. The Xubuntu server accepts SSH connections, and both clients can connect and authenticate through encrypted sessions. The successful communication between all devices confirms stable connectivity and correct SSH setup within the hybrid network.
+
+---
+
+**Back to project overview:** [README](README.md)
