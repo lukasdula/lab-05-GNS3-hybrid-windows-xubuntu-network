@@ -130,7 +130,7 @@ HTTP communication between Windows and Xubuntu systems is successfully establish
 
 ---
 
-Next part: [HTTP Configuration on Xubuntu Server](02-http-configuration-on-xubuntu-server.md)
+Next part: [SSH Remote Access between Systems](03-ssh-remote-access-between-systems.md)
 
 
 
