@@ -2,7 +2,7 @@
 
 ## **1.1 Introduction**
 
-**This section explains how to configure the DHCP service on Xubuntu Server to automatically assign IP addresses to both Windows and Xubuntu clients. The ISC DHCP server runs on Xubuntu with a static IP 192.168.20.10, distributing addresses from two pools: 192.168.10.100–150 and 192.168.20.100–150. Router R1 uses an IP helper address to forward DHCP requests to the server, enabling dynamic IP allocation across both network segments.**
+This section explains how to configure the DHCP service on Xubuntu Server to automatically assign IP addresses to both Windows and Xubuntu clients. The ISC DHCP server runs on Xubuntu with a static IP 192.168.20.10, distributing addresses from two pools: 192.168.10.100–150 and 192.168.20.100–150. Router R1 uses an IP helper address to forward DHCP requests to the server, enabling dynamic IP allocation across both network segments.
 
 
 ![](images/Pasted%20image%2020251110015412.png)
