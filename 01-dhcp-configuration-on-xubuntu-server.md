@@ -7,7 +7,7 @@ This section explains how to configure the DHCP service on Xubuntu Server to aut
 
 ![](images/Pasted%20image%2020251110015412.png)
 
-## **1.2 Network Topology**
+## **1.2 Topology**
 
 | Device               | Interface | Connected to → | Peer Interface | IP Address                | Subnet Mask   | Gateway      |
 | -------------------- | --------- | -------------- | -------------- | ------------------------- | ------------- | ------------ |
