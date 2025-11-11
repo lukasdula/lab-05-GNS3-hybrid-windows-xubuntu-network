@@ -6,7 +6,8 @@
 This section focuses on enabling secure remote access between Windows and Xubuntu systems using SSH (Secure Shell). The goal is to configure the Xubuntu server to accept SSH connections and verify that both Xubuntu and Windows clients can connect to it remotely. SSH ensures encrypted communication, user authentication, and command-line access for network administration tasks.
 
 ![](images/Pasted%20image%2020251110233141.png)
-## **3.2 Network Topology**
+
+## **3.2 Topology**
 
 | Device               | Interface | Connected to → | Peer Interface | IP Address                | Subnet Mask   | Gateway      |
 | -------------------- | --------- | -------------- | -------------- | ------------------------- | ------------- | ------------ |
