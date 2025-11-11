@@ -7,7 +7,7 @@ This chapter focuses on setting up and verifying HTTP communication between Xubu
 ![](images/Pasted%20image%2020251110214733.png)
 
 
-## **2.2 Network Topology**
+## **2.2 Topology**
 
 | Device               | Interface | Connected to → | Peer Interface | IP Address                | Subnet Mask   | Gateway      |
 | -------------------- | --------- | -------------- | -------------- | ------------------------- | ------------- | ------------ |
