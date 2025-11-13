@@ -94,4 +94,4 @@ The SSH configuration enables secure remote communication between Windows and Xu
 
 ---
 
-**Back to project overview:** [README](README.md)
+**Back to lab overview:** [README](README.md)
