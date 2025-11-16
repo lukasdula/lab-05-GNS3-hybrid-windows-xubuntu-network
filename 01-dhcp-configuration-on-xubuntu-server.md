@@ -1,11 +1,15 @@
 # 1 - DHCP Configuration on Xubuntu Server
 
+<br><br>
+
 ## **1.1 Introduction**
 
 This section explains how to configure the DHCP service on Xubuntu Server to automatically assign IP addresses to both Windows and Xubuntu clients. The ISC DHCP server runs on Xubuntu with a static IP 192.168.20.10, distributing addresses from two pools: 192.168.10.100–150 and 192.168.20.100–150. Router R1 uses an IP helper address to forward DHCP requests to the server, enabling dynamic IP allocation across both network segments.
 
 
 ![](images/Pasted%20image%2020251110015412.png)
+
+<br><br>
 
 ## **1.2 Topology**
 
@@ -16,6 +20,8 @@ This section explains how to configure the DHCP service on Xubuntu Server to aut
 | **Windows-PC1**      | Ethernet0 | SW1            | Gi0/1 (SW1)    | DHCP (192.168.10.100–150) | 255.255.255.0 | 192.168.10.1 |
 | **Xubuntu-Server**   | gi0/0     | SW2            | Gi0/0 (SW2)    | 192.168.20.10             | 255.255.255.0 | 192.168.20.1 |
 | **Xubuntu-Client-1** | gi0/0     | SW2            | Gi0/1 (SW2)    | DHCP (192.168.20.100–150) | 255.255.255.0 | 192.168.20.1 |
+
+<br><br>
 
 ## **1.3 Steps**
 
@@ -32,7 +38,8 @@ This section explains how to configure the DHCP service on Xubuntu Server to aut
 6. Verify that both clients (Windows-PC1 and Xubuntu-Client2) receive IP addresses dynamically from the DHCP server.
     
 7. Test network connectivity with ping commands between all devices to confirm DHCP and routing functionality.
-    
+
+<br><br>    
 
 ## **1.4 Router (R1) Configuration**
 
@@ -57,6 +64,7 @@ write memory
 ```
 ![](images/Pasted%20image%2020251109224812.png)
 
+<br><br>
 
 ## **1.5 Xubuntu DHCP Server Configuration**
 
@@ -164,6 +172,8 @@ sudo systemctl status isc-dhcp-server
 ```
 ![](images/Pasted%20image%2020251110005222.png)
 
+<br><br>
+
 ## **1.6 Verify DHCP on each client**
 
 3. Verify that both clients (Windows and Xubuntu) receive correct IP addresses from their respective DHCP pools.
@@ -189,7 +199,7 @@ ip a
 
 Both clients (Windows and Xubuntu) successfully received IP addresses dynamically from the Xubuntu DHCP server, confirming full functionality of the DHCP relay and address distribution across networks.
 
-
+<br><br>
 
 ## 1.7 **Diagnostics**
 
@@ -222,6 +232,7 @@ ping 192.168.10.100 (Windows Client)
  ```
 ![](images/Pasted%20image%2020251110014038.png)
 
+<br><br>
 
 ## **1.8 Conclusion**
 
