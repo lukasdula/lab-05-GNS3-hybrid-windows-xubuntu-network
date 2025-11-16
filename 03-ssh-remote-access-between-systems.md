@@ -1,11 +1,15 @@
 
 # **3 - SSH Remote Access between Systems**
 
+<br><br>
+
 ## **3.1 Introduction**
 
 This section focuses on enabling secure remote access between Windows and Xubuntu systems using SSH (Secure Shell). The goal is to configure the Xubuntu server to accept SSH connections and verify that both Xubuntu and Windows clients can connect to it remotely. SSH ensures encrypted communication, user authentication, and command-line access for network administration tasks.
 
 ![](images/Pasted%20image%2020251110233141.png)
+
+<br><br>
 
 ## **3.2 Topology**
 
@@ -17,12 +21,16 @@ This section focuses on enabling secure remote access between Windows and Xubunt
 | **Xubuntu-Server**   | gi0/0     | SW2            | Gi0/0 (SW2)    | 192.168.20.10             | 255.255.255.0 | 192.168.20.1 |
 | **Xubuntu-Client-1** | gi0/0     | SW2            | Gi0/1 (SW2)    | DHCP (192.168.20.100–150) | 255.255.255.0 | 192.168.20.1 |
 
+<br><br>
+
 ## **3.3 Steps**
 
 1. Install and enable the SSH service on the Xubuntu server.  
 2. Verify that the SSH daemon (sshd) is active and listening on port 22.  
 3. Test SSH connection from Windows client to Xubuntu-server using server IP 192.168.20.10.  
 4. Test SSH connection from Xubuntu server to Windows-PC1 using terminal.  
+
+<br><br>
 
 ## **3.4 Install SSH**
 
@@ -51,7 +59,7 @@ sudo ss -tuln | grep :22
 
 The Xubuntu server is now ready to accept SSH connection.
 
-
+<br><br>
 
 ## 3.5 SSH Connection Between Windows and Xubuntu Server
 
@@ -87,6 +95,7 @@ After installation, start the service with `Start-Service sshd`.
 
 All SSH sessions authenticate successfully, confirming full connectivity SSH communication between Windows client and Xubuntu server.
 
+<br><br>
 
 ## **3.6 Conclusion**
 
