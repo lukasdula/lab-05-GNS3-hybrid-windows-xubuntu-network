@@ -1,11 +1,14 @@
 # 2 - HTTP Apache Communication
 
+<br><br>
+
 ## **2.1 Introduction**
 
 This chapter focuses on setting up and verifying HTTP communication between Xubuntu and Windows clients using the Apache2 web server. The goal is to install and configure Apache on the Xubuntu server, replace the default web page with a custom one, and confirm access from both clients through IP-based HTTP requests. Tests include local access, cross-network communication, and verification using _curl_ and a web browser.
 
 ![](images/Pasted%20image%2020251110214733.png)
 
+<br><br>
 
 ## **2.2 Topology**
 
@@ -17,6 +20,7 @@ This chapter focuses on setting up and verifying HTTP communication between Xubu
 | **Xubuntu-Server**   | gi0/0     | SW2            | Gi0/0 (SW2)    | 192.168.20.10             | 255.255.255.0 | 192.168.20.1 |
 | **Xubuntu-Client-1** | gi0/0     | SW2            | Gi0/1 (SW2)    | DHCP (192.168.20.100–150) | 255.255.255.0 | 192.168.20.1 |
 
+<br><br>
 
 ## **2.3 Steps**
 
@@ -33,6 +37,8 @@ This chapter focuses on setting up and verifying HTTP communication between Xubu
 6. From the Xubuntu client, access the web page hosted on the server using the IP address `http://192.168.20.10`.
     
 7. From the Windows client, verify HTTP access by opening the same address in a browser to confirm cross-network communication.
+
+<br><br>
 
 ## **2.4 Apache Installation, Check and Configuration**
 
@@ -104,6 +110,7 @@ http://localhost
 ```
 ![](images/Pasted%20image%2020251110210021.png)
 
+<br><br>
 
 ## **2.5 Verify HTTP Communication from Clients**
 
@@ -123,6 +130,7 @@ http://192.168.20.10
 
 Both clients display the same “Lab 05 – HTTP Communication Test” page, confirming that the Apache server on the Xubuntu machine is correctly reachable over the network.
 
+<br><br>
 
 ## **2.6 Conclusion**
 
